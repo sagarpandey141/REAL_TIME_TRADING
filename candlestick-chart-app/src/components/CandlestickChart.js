@@ -58,7 +58,7 @@ const CandlestickChart = () => {
     const candlestickSeries = chart.addCandlestickSeries();
 
     // Initialize WebSocket connection
-    const ws = new WebSocket("ws://real-time-trading.onrender.com");
+    const ws = new WebSocket("wss://real-time-trading.onrender.com");
 
     ws.onopen = () => {
       console.log("WebSocket connection opened");
