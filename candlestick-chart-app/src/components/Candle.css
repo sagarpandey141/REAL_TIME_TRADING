@@ -1,0 +1,38 @@
+/* CandlestickChart.css */
+
+#chart-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style for the chart title, you can customize it */
+  .chart-title {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Additional styling for the chart area, you can customize it */
+  .chart-area {
+    padding: 1rem;
+  }
+  
+  /* Style for the tooltip, you can customize it */
+  .tooltip {
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
